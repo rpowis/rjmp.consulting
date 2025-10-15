@@ -8,17 +8,27 @@ export default function Home() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 flex flex-col items-center space-y-8 px-4 text-center">
-        <div className="space-y-4">
-          <h1 className="text-5xl font-bold tracking-tight text-slate-900 dark:text-slate-50 sm:text-6xl md:text-7xl">
+      <div className="relative z-10 flex flex-col items-center space-y-8 px-4 text-center max-w-4xl">
+        <div className="space-y-6">
+          <div className="text-sm font-medium tracking-wider text-slate-500 dark:text-slate-400 uppercase">
             RJMP Consulting
+          </div>
+          <h1 className="text-5xl font-bold tracking-tight text-slate-900 dark:text-slate-50 sm:text-6xl md:text-7xl">
+            Fractional CTO services for growing companies.
           </h1>
-          <p className="text-xl text-slate-600 dark:text-slate-400 sm:text-2xl">
-            Strategic Solutions. Expert Guidance.
+        </div>
+
+        <div className="mt-8 max-w-2xl text-slate-600 dark:text-slate-400">
+          <p className="text-lg">
+            Technical leadership without the full-time commitment.
+          </p>
+          <p className="text-lg">
+            Architecture, team building, and engineering strategy when you need
+            it.
           </p>
         </div>
 
-        <div className="mt-12 inline-flex items-center rounded-full border border-slate-200 bg-white/80 px-6 py-3 text-sm font-medium text-slate-700 shadow-sm backdrop-blur-sm dark:border-slate-800 dark:bg-slate-900/80 dark:text-slate-300">
+        <div className="mt-8 inline-flex items-center rounded-full border border-slate-200 bg-white/80 px-6 py-3 text-sm font-medium text-slate-700 shadow-sm backdrop-blur-sm dark:border-slate-800 dark:bg-slate-900/80 dark:text-slate-300">
           <span className="mr-2 h-2 w-2 animate-pulse rounded-full bg-green-500" />
           Site launching soon
         </div>
@@ -26,10 +36,10 @@ export default function Home() {
         <div className="mt-8 text-sm text-slate-500 dark:text-slate-500">
           Get in touch:{" "}
           <a
-            href="mailto:contact@rjmp.consulting"
-            className="font-medium text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300"
+            href="mailto:hello@rjmp.consulting"
+            className="font-medium underline text-gray-600 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300"
           >
-            contact@rjmp.consulting
+            hello@rjmp.consulting
           </a>
         </div>
       </div>
